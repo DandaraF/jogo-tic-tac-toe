@@ -20,7 +20,7 @@ body {
     font-size: 2.5rem;
     padding-bottom: 60px;
   }
-  .container-players {
+  .container-player {
     @include simple-flex(center, center, row);
 
     a {

@@ -1,3 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #b5b9b9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60rem;
+  height: 60rem;
+  background-color: #101231;
+  color: azure;
+  border-radius: 10px;
+}
+.container .text-principal {
+  font-size: 4rem;
+}
+.container .sub-text {
+  font-size: 2.5rem;
+  padding-bottom: 60px;
+}
+.container .container-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container .container-player a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-left: 10px;
+  color: azure;
+  border: 2px solid;
+  padding: 10px;
+}
+.container .container-player a:hover {
+  color: #8ca111;
+}
+.container .container-player #playerVsComputer {
+  color: #8b8b8b;
+  cursor: not-allowed;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 640px;
+  height: 700px;
+  padding: 20px;
+}
+.container h2 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+.container .container-tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  height: 456px;
+  margin-bottom: 30px;
+}
+.container .container-tabuleiro .celula {
+  width: 150px;
+  height: 150px;
+  border-bottom: 3px solid #b8b7b7;
+  border-left: 3px solid #b8b7b7;
+}
+.container .container-tabuleiro .primeira-celula {
+  border-left: none;
+}
+.container .container-tabuleiro .ultima-celula {
+  border-bottom: none;
+}
+.container .container-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 80%;
+  height: 70px;
+  font-size: 2.5rem;
+  background-color: crimson;
+  margin-bottom: 10px;
+}
+.container #reiniciarJogo {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  padding: 3px;
+}
 
 /*# sourceMappingURL=players.css.map */

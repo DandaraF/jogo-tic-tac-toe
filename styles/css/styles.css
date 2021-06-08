@@ -36,13 +36,13 @@ body {
   font-size: 2.5rem;
   padding-bottom: 60px;
 }
-.container .container-players {
+.container .container-player {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-.container .container-players a {
+.container .container-player a {
   text-decoration: none;
   font-size: 1.8rem;
   margin-left: 10px;
@@ -50,10 +50,10 @@ body {
   border: 2px solid;
   padding: 10px;
 }
-.container .container-players a:hover {
+.container .container-player a:hover {
   color: #8ca111;
 }
-.container .container-players #playerVsComputer {
+.container .container-player #playerVsComputer {
   color: #8b8b8b;
   cursor: not-allowed;
 }
